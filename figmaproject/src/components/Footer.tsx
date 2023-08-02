@@ -4,132 +4,119 @@ export const Footer = () => {
   return (
     <div className="w-full bg-blue-gray-900 w-[1440px] flex flex-col py-0 sm:px-20 px-6 box-border items-start justify-center z-[7] text-base text-blue-gray-200">
       <div className="self-stretch flex sm:flex-row flex-col  py-12 px-0 sm:items-start items-center justify-start gap-[48px] text-default-white border-t-[1px] border-solid border-blue-gray-700 border-b-[1px]">
-       
         <div className="flex-1 flex flex-col sm:items-start  items-center justify-start">
           <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px] ">
-            
             <div className="relative leading-[110%] font-medium ">Product</div>
-            
           </div>
           <div className="self-stretch flex flex-col items-start justify-start text-blue-gray-200">
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Pricing</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">
+                Pricing
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-            
-              <div className="relative leading-[140%]">Overview</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Overview
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Browse</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Browse
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Accessibility</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Accessibility
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Five</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">Five</div>
             </div>
-          
           </div>
         </div>
         <div className="flex-1 flex flex-col items-start justify-start">
           <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-            
-            <div className="relative leading-[110%] font-medium">Solutions</div>
-          
+            <div className="relative leading-[110%] font-medium ">
+              Solutions
+            </div>
           </div>
           <div className="self-stretch flex flex-col items-start   text-blue-gray-200">
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Brainstorming</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">
+                Brainstorming
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Ideation</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Ideation
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Wireframing</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Wireframing
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Research</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">
+                Research
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-              
-              <div className="relative leading-[140%]">Design</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">
+                Design
+              </div>
             </div>
-            
           </div>
         </div>
-       
+
         <div className="flex-1 flex flex-col items-start justify-start">
           <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-            
             <div className="relative leading-[110%] font-medium">Support</div>
-           
           </div>
           <div className="self-stretch flex flex-col items-start justify-start text-blue-gray-200">
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Contact Us</div>
-              
+              <div className="relative leading-[140%] cursor-pointer">
+                Contact Us
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Developers</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Developers
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Documentation</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Documentation
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Integrations</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Integrations
+              </div>
             </div>
             <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-             
-              <div className="relative leading-[140%]">Reports</div>
-             
+              <div className="relative leading-[140%] cursor-pointer">
+                Reports
+              </div>
             </div>
-           
           </div>
         </div>
         <div className="flex-1 flex flex-col items-start justify-start gap-[8px]">
           <div className="self-stretch flex flex-row py-3 px-0 items-center sm:justify-start justify-center gap-[8px]">
-            
             <div className="relative leading-[110%] font-medium">
               Get the App
             </div>
-            
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-blue-gray-200">
             <div className="self-stretch h-[46px] flex flex-col sm:items-start items-center justify-center">
               <img
-                className="relative w-[119.66px] h-10"
+                className="relative w-[119.66px] h-10 cursor-pointer"
                 alt=""
                 src="/app-store--filled2.svg"
               />
             </div>
-            <div className="self-stretch h-[46px] flex flex-col sm:items-start items-center justify-center text-[8.38px] text-default-white font-open-sans">
+            <div className="cursor-pointer self-stretch h-[46px] flex flex-col sm:items-start items-center justify-center text-[8.38px] text-default-white font-open-sans">
               <div className="relative w-[135px] h-10">
-                
                 <img
                   className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt=""
@@ -165,72 +152,61 @@ export const Footer = () => {
                 />
               </div>
             </div>
-           
-           
-           
+
             <div className="self-stretch flex flex-row pt-12 px-0 pb-3 items-center sm:justify-start justify-center gap-[8px]">
-            
               <div className="relative leading-[110%] font-medium">
                 Follow Us
               </div>
-              
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[16px]">
               <img
-                className="relative w-6 h-6 overflow-hidden shrink-0"
+                className="relative w-6 h-6 overflow-hidden shrink-0 cursor-pointer"
                 alt=""
-                src="/icon--jamicons--outline--logos--youtube2.svg"
+                src="/icon--jamicons--outline--logos--youtube2.svg "
               />
               <img
-                className="relative w-6 h-6 overflow-hidden shrink-0"
+                className="relative w-6 h-6 overflow-hidden shrink-0 cursor-pointer"
                 alt=""
                 src="/icon--jamicons--outline--logos--facebook2.svg"
               />
               <img
-                className="relative w-6 h-6 overflow-hidden shrink-0"
+                className="relative w-6 h-6 overflow-hidden shrink-0 cursor-pointer"
                 alt=""
                 src="/icon--jamicons--outline--logos--twitter2.svg"
               />
               <img
-                className="relative w-6 h-6 overflow-hidden shrink-0"
+                className="relative w-6 h-6 overflow-hidden shrink-0 cursor-pointer"
                 alt=""
                 src="/icon--jamicons--outline--logos--instagram2.svg"
               />
               <img
-                className="relative w-6 h-6 overflow-hidden shrink-0"
+                className="relative w-6 h-6 overflow-hidden shrink-0 cursor-pointer"
                 alt=""
                 src="/icon--jamicons--outline--logos--linkedin2.svg"
               />
-             
             </div>
-            
-           
           </div>
         </div>
       </div>
 
-
       <div className="self-stretch flex sm:flex-row flex-col py-6 px-0 items-center justify-start gap-[48px]">
-        
         <div className="flex-1 relative leading-[140%]">
           Collers @ 2023. All rights reserved.
         </div>
         <div className="flex flex-row items-center justify-end gap-[32px]">
           <div className="flex flex-row py-3 px-0 items-center justify-start gap-[8px]">
-            
-            <div className="relative leading-[140%]">Terms</div>
-           
+            <div className="relative leading-[140%] cursor-pointer">Terms</div>
           </div>
           <div className="flex flex-row py-3 px-0 items-center justify-start gap-[8px]">
-           
-            <div className="relative leading-[140%]">Privacy</div>
-            
+            <div className="relative leading-[140%] cursor-pointer">
+              Privacy
+            </div>
           </div>
-          
+
           <div className="flex flex-row py-3 px-0 items-center justify-start gap-[8px]">
-           
-            <div className="relative leading-[140%]">Contact</div>
-           
+            <div className="relative leading-[140%] cursor-pointer">
+              Contact
+            </div>
           </div>
           <div className="flex flex-row py-3 px-0 items-center justify-start gap-[8px]">
             <img
@@ -238,14 +214,10 @@ export const Footer = () => {
               alt=""
               src="/icon--jamicons--outline--logos--world4.svg"
             />
-            <div className="relative leading-[140%]">EN</div>
-            
+            <div className="relative leading-[140%] ">EN</div>
           </div>
-        
         </div>
-       
       </div>
-      
     </div>
   );
 };

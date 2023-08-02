@@ -1,6 +1,8 @@
 import React, { useMemo, useCallback, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
+import "./styles.css"
 
 const CommentSection = () => {
   const sliderRef = useRef<any>();
@@ -71,7 +73,7 @@ const CommentSection = () => {
           </div>
         </div>
       </div>
-      <div className="absolute  h-[370px]   sm:top-[200px] top-[100px] w-full    bg-[#FDE68A] sm:right-10 sm:left-10 left-[0px] "></div>
+      <div className="absolute  h-[370px]   sm:top-[200px] top-[200px]   bg-[#FDE68A] sm:right-10 sm:left-10 left-0 right-0"></div>
       <div className="self-stretch overflow-x-auto flex flex-row items-center justify-center gap-[24px] z-[2] text-5xl text-black ">
         <Swiper
           spaceBetween={60}

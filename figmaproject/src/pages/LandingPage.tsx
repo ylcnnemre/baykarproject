@@ -4,7 +4,6 @@ import FirstSection from "../components/FirstSection";
 import BestSection from "../components/BestSection";
 import JoinSection from "../components/JoinSection";
 import CommentSection from "../components/CommentSection";
-import CommentSlider from "../components/CommentSlider";
 import GrowCollectionSection from "../components/GrowCollectionSection";
 import { Footer } from "../components/Footer";
 

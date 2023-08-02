@@ -7,7 +7,7 @@ const BestSection = () => {
         <h2 className="text-white sm:text-[56px] my-0 text-[32px]  ">
           The best of the best
         </h2>
-        <div className="text-white border-2 border-white border-solid h-max py-4 px-8 rounded-md  sm:mt-0 mt-4">
+        <div className="text-white border-2 border-white border-solid h-max py-4 px-8 rounded-md  sm:mt-0 mt-4 cursor-pointer ">
           <span>Sign Up Now</span>
         </div>
       </div>
@@ -46,14 +46,14 @@ const BestSection = () => {
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </div>
           </div>
-          <div className="self-stretch flex flex-row p-8 items-start justify-start gap-[16px] z-[2] text-xl text-default-white">
+          <div className=" cursor-pointer self-stretch flex flex-row p-8 items-start justify-start gap-[16px] z-[2] text-xl text-default-white">
             <div className="flex-1 rounded-lg flex flex-row p-4 items-center justify-center border-[2px] border-solid border-default-white">
               <img
                 className="relative w-6 h-6 overflow-hidden shrink-0"
                 alt=""
                 src="/icon--jamicons--outline--logos--shoppingcart1.svg"
               />
-              <div className="flex flex-row py-0 px-4 items-center justify-center">
+              <div className="flex flex-row py-0 px-4 items-center justify-center cursor-pointer">
                 <div className="relative tracking-[0.5px] leading-[24px] font-medium">
                   Buy Now
                 </div>
@@ -82,14 +82,14 @@ const BestSection = () => {
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </div>
           </div>
-          <div className="self-stretch flex flex-row p-8 items-start justify-start gap-[16px] z-[2] text-xl text-default-white">
+          <div className="self-stretch flex flex-row p-8 items-start cursor-pointer justify-start gap-[16px] z-[2] text-xl text-default-white">
             <div className="flex-1 rounded-lg flex flex-row p-4 items-center justify-center border-[2px] border-solid border-default-white">
               <img
                 className="relative w-6 h-6 overflow-hidden shrink-0"
                 alt=""
                 src="/icon--jamicons--outline--logos--shoppingcart2.svg"
               />
-              <div className="flex flex-row py-0 px-4 items-center justify-center">
+              <div className="flex flex-row py-0 px-4 items-center justify-center cursor-pointer ">
                 <div className="relative tracking-[0.5px] leading-[24px] font-medium">
                   Buy Now
                 </div>
@@ -104,7 +104,7 @@ const BestSection = () => {
             alt=""
             src="/picture10@2x.png"
           />
-          <div className="self-stretch flex flex-col pt-8 px-8 pb-0 items-start justify-start gap-[16px] z-[1]">
+          <div className="self-stretch flex flex-col pt-8 px-8 pb-0 items-start justify-start gap-[16px] z-[1] ">
             <div className="self-stretch flex flex-col items-start justify-start gap-[4px] text-base">
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] text-5xl text-default-white">
                 <b className="flex-1 relative leading-[110%]">Title</b>
@@ -115,20 +115,23 @@ const BestSection = () => {
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </div>
           </div>
+
           <div className="self-stretch flex flex-row p-8 items-start justify-start gap-[16px] z-[2] text-xl text-default-white">
-            <div className="flex-1 rounded-lg flex flex-row p-4 items-center justify-center border-[2px] border-solid border-default-white">
+            <div className="flex-1 rounded-lg flex flex-row p-4 items-center cursor-pointer justify-center border-[2px] border-solid border-default-white">
               <img
                 className="relative w-6 h-6 overflow-hidden shrink-0"
                 alt=""
                 src="/icon--jamicons--outline--logos--shoppingcart3.svg"
               />
-              <div className="flex flex-row py-0 px-4 items-center justify-center">
+              <div className="flex flex-row py-0 px-4 items-center justify-center  ">
                 <div className="relative tracking-[0.5px] leading-[24px] font-medium">
                   Buy Now
                 </div>
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>

@@ -34,8 +34,8 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   .then((val) => {
     let questions = val.slice(0, 10);
     for (let item of questions) {
-      let sonuc = item.body.replace(/\n/g, " ").split(" ").slice(0, 5);
-      sonuc = new Set([...sonuc]);
+      let sonuc = item.body.replace(/\n/g, " ").split(" ").slice(0, 5);   
+      sonuc = new Set([...sonuc]);          //  split ile apiden gelen body yi boşluğa göre parçaladım ve ilk 4 indexini aldım ardından tekrar eden şıklar olmaması için set ile tekrar veriyi düzelttim
       let choices = Array.from(sonuc);
       quizQuestions.push({
         question: item.title,
@@ -47,7 +47,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 let questionNumber = 0;
 let totalScore = 0;
-let timerValue = 10;
+let timerValue = 30;
 let timerInterval = null;
 
 function showQuestion() {
@@ -140,7 +140,7 @@ function updateTimer() {
 
 function stopTimer() {
   clearInterval(timerInterval);
-  timerValue = 10;
+  timerValue = 30;
   timerElement.textContent = timerValue;
 }
 
@@ -150,7 +150,7 @@ function disabledControl() {
   setTimeout(() => {
     nextButton.removeAttribute("disabled", false);
     removeDisabled();
-  }, 1000);
+  }, 10000);
 }
 
 function addDisabled() {
@@ -166,7 +166,6 @@ function removeDisabled() {
 }
 
 function setChoise(questionIndex) {
-  console.log("qıestionIndex ==>", questionIndex);
   let questionEl = quizQuestions[questionIndex];
 
   selectedChoices.push(null);
