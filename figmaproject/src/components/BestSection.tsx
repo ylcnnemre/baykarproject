@@ -2,7 +2,7 @@ import React from "react";
 
 const BestSection = () => {
   return (
-    <div className="flex flex-col  bg-blue-gray-900 w-full ">
+    <div className="flex flex-col  bg-blue-gray-900 w-full z-50 ">
       <div className="flex sm:flex-row sm:justify-between  sm:p-20 items-center p-4 flex-col sm:mt-0 mt-4  ">
         <h2 className="text-white sm:text-[56px] my-0 text-[32px]  ">
           The best of the best
